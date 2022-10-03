@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+
+    /* Modules */
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,
+
+    "baseUrl": "src/",
+    "paths": {
+      "@app": ["app"],
+      "@core": ["core"],
+      "@schemas": ["app/schemas"],
+      "@modules": ["app/modules"],
+      "@services": ["app/services"],
+      "@controllers": ["app/controllers"],
+      "@utils": ["utils"]
+    }
+  }
+}
